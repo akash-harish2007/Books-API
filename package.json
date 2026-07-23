@@ -1,0 +1,17 @@
+{
+  "name": "book-api",
+  "version": "1.0.0",
+  "description": "RESTful Book API with JWT authentication",
+  "main": "book-api.js",
+  "scripts": {
+    "start": "node book-api.js",
+    "dev": "nodemon book-api.js"
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "mysql2": "^3.0.0",
+    "bcrypt": "^5.1.0",
+    "jsonwebtoken": "^9.0.0",
+    "dotenv": "^16.0.0"
+  }
+}
